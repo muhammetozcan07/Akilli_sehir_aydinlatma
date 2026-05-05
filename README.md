@@ -1,7 +1,6 @@
 # Akıllı Şehir Aydınlatma Sistemi
 
-
-
+"Geleceğin sürdürülebilir şehirleri için tasarladığımız Akıllı Şehir Aydınlatma Sistemi çalışmamızda, enerji verimliliği ile yaya güvenliği arasındaki mükemmel dengeyi otonom olarak kurabilen yapay zeka tabanlı bir model geliştirdik. Pekiştirmeli Öğrenme (Q-Learning) algoritmaları kullanılarak eğitilen bu sistem; günün saatini, doğal ışık seviyesini ve sensörlerden gelen anlık hareket verilerini eşzamanlı olarak analiz ederek sokak lambalarının parlaklık seviyesini (Kapalı, %50 veya %100) dinamik bir şekilde belirlemektedir. Tasarladığımız özelleştirilmiş ödül-ceza mekanizması sayesinde modelimiz sadece hareket sensörlerine körü körüne tepki veren basit bir yapı olmaktan çıkmış; gece karanlığında hareket algılandığında güvenliği maksimuma çıkaran, gündüz vakti veya sokak boşken ise sıfır israf prensibiyle hareket ederek enerji tüketimini minimize eden optimum aydınlatma politikasını başarıyla öğrenmiştir."
 
 # Aksiyonlar (Action Space)
 

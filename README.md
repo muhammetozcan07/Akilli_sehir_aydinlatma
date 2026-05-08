@@ -21,7 +21,7 @@ Formül: Toplam Ödül = Enerji Cezası + Güvenlik Primi + Gece Bonusu
 
 # Matematiksel Gösterim
 
-Sistemin öğrenme mekanizması, Pekiştirmeli Öğrenmenin temel taşı olan Bellman Denklemi kullanılarak modellenmiştir. Yapay zekanın her deneyimden sonra "beynini" (Q-tablosunu) güncellemek için kullandığı matematiksel formül şu şekildedir:
+Sistemin öğrenme mekanizması, Pekiştirmeli Öğrenmenin temel taşı olan Bellman Denklemi kullanılarak modellenmiştir. Yapay zekanın her deneyimden sonra (Q-tablosunu) güncellemek için kullandığı matematiksel formül şu şekildedir:
 
 <img width="582" height="72" alt="image" src="https://github.com/user-attachments/assets/b11eac2a-1b1e-474b-8f41-9d3856895bff" />
 

@@ -19,6 +19,12 @@ Formül: Toplam Ödül = Enerji Cezası + Güvenlik Primi + Gece Bonusu
 <img width="401" height="431" alt="image" src="https://github.com/user-attachments/assets/b7cb5f33-0af9-4184-b394-ef6768f79a05" />
 
 
+# Matematiksel Gösterim
+
+Sistemin öğrenme mekanizması, Pekiştirmeli Öğrenmenin temel taşı olan Bellman Denklemi kullanılarak modellenmiştir. Yapay zekanın her deneyimden sonra "beynini" (Q-tablosunu) güncellemek için kullandığı matematiksel formül şu şekildedir:
+
+<img width="582" height="72" alt="image" src="https://github.com/user-attachments/assets/b11eac2a-1b1e-474b-8f41-9d3856895bff" />
+
 # Eğitim Sonuçları
 
 Yapay zekanın eğitim sürecine ait grafik ve simülasyon çıktıları, modelin ortamı mükemmel bir şekilde çözdüğünü ve hedeflenen davranışları başarıyla öğrendiğini göstermektedir. Öğrenme eğrisi incelendiğinde; modelin ilk 250 turda (keşif aşaması) rastgele kararlar alarak çevreyi tanımaya çalıştığı ve hatalarından eksi puanlar aldığı, ardından 750. tura kadar doğru hamleleri hızla kavrayarak performansını dik bir ivmeyle artırdığı görülmektedir. 750. turdan eğitim sonuna kadar ise ortalama ödülün 300 puan bandında sabitlenmesi, yapay zekanın "ustalık" aşamasına geçerek alabileceği en yüksek puanları getiren optimum stratejiyi ezberlediğini kanıtlar. 

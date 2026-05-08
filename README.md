@@ -1,6 +1,8 @@
+
+https://github.com/user-attachments/assets/a61575d2-40f4-48b6-9253-3665e0919bf2
 # Akıllı Şehir Aydınlatma Sistemi
 
-"Geleceğin sürdürülebilir şehirleri için tasarladığımız Akıllı Şehir Aydınlatma Sistemi çalışmamızda, enerji verimliliği ile yaya güvenliği arasındaki mükemmel dengeyi otonom olarak kurabilen yapay zeka tabanlı bir model geliştirdik. Pekiştirmeli Öğrenme (Q-Learning) algoritmaları kullanılarak eğitilen bu sistem; günün saatini, doğal ışık seviyesini ve sensörlerden gelen anlık hareket verilerini eşzamanlı olarak analiz ederek sokak lambalarının parlaklık seviyesini (Kapalı, %50 veya %100) dinamik bir şekilde belirlemektedir. Tasarladığımız özelleştirilmiş ödül-ceza mekanizması sayesinde modelimiz sadece hareket sensörlerine körü körüne tepki veren basit bir yapı olmaktan çıkmış; gece karanlığında hareket algılandığında güvenliği maksimuma çıkaran, gündüz vakti veya sokak boşken ise sıfır israf prensibiyle hareket ederek enerji tüketimini minimize eden optimum aydınlatma politikasını başarıyla öğrenmiştir."
+Pekiştirmeli Öğrenme (Q-Learning) algoritmaları kullanılarak eğitilen bu sistem; günün saatini, doğal ışık seviyesini ve sensörlerden gelen anlık hareket verilerini eşzamanlı olarak analiz ederek sokak lambalarının parlaklık seviyesini (Kapalı, %50 veya %100) dinamik bir şekilde belirlemektedir. Tasarladığımız özelleştirilmiş ödül-ceza mekanizması sayesinde modelimiz sadece hareket sensörlerine körü körüne tepki veren basit bir yapı olmaktan çıkmış; gece karanlığında hareket algılandığında güvenliği maksimuma çıkaran, gündüz vakti veya sokak boşken ise sıfır israf prensibiyle hareket ederek enerji tüketimini minimize eden optimum aydınlatma politikasını başarıyla öğrenmiştir.
 
 # Aksiyonlar (Action Space)
 
@@ -24,10 +26,17 @@ Formül: Toplam Ödül = Enerji Cezası + Güvenlik Primi + Gece Bonusu
 Yapay zekanın eğitim sürecine ait grafik ve simülasyon çıktıları, modelin ortamı mükemmel bir şekilde çözdüğünü ve hedeflenen davranışları başarıyla öğrendiğini göstermektedir. Öğrenme eğrisi incelendiğinde; modelin ilk 250 turda (keşif aşaması) rastgele kararlar alarak çevreyi tanımaya çalıştığı ve hatalarından eksi puanlar aldığı, ardından 750. tura kadar doğru hamleleri hızla kavrayarak performansını dik bir ivmeyle artırdığı görülmektedir. 750. turdan eğitim sonuna kadar ise ortalama ödülün 300 puan bandında sabitlenmesi, yapay zekanın "ustalık" aşamasına geçerek alabileceği en yüksek puanları getiren optimum stratejiyi ezberlediğini kanıtlar. 
 Canlı testin 10. adımındaki sonuç da bu başarıyı somutlaştırmaktadır; sistem, ortamda bir insan hareketi algılamasına rağmen öğle vakti ve güneşli bir hava olduğu için ışıkları açmayı reddetmiş (Kapalı/OFF tutmuş) ve gereksiz enerji tüketiminin önüne geçerek tasarruf ödülü (+2 puan) kazanmıştır. Bu durum, modelin sadece sensör tetiklenmelerine körü körüne tepki vermediğini; zaman, ışık ve hareket verilerini aynı potada eriterek enerji verimliliğini ve güvenliği aynı anda sağlayan bilinçli bir akıllı şehir asistanına dönüştüğünü özetlemektedir.
 
-<img width="623" height="157" alt="image" src="https://github.com/user-attachments/assets/a7f34f8d-7a07-4b84-82ba-f1cfb1e5ca94" />
+<img width="625" height="147" alt="image" src="https://github.com/user-attachments/assets/1add7b24-2e2f-4ce9-9fd9-0037a89d1097" />
 
 
-<img width="862" height="472" alt="image" src="https://github.com/user-attachments/assets/6a853fb1-b094-4a67-bf52-d7f7d1d3befc" />
+
+
+<img width="862" height="472" alt="image" src="https://github.com/user-attachments/assets/2bc2cd6a-2265-4bce-a4e2-03df3abd32c3" />
+
+
+# Çalışma Videosu
+
+https://github.com/user-attachments/assets/7de30c39-95a5-4eb1-84da-510e42c983fb
 
 
 

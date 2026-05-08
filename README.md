@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/a61575d2-40f4-48b6-9253-3665e0919bf2
 # Akıllı Şehir Aydınlatma Sistemi
 
 Pekiştirmeli Öğrenme (Q-Learning) algoritmaları kullanılarak eğitilen bu sistem; günün saatini, doğal ışık seviyesini ve sensörlerden gelen anlık hareket verilerini eşzamanlı olarak analiz ederek sokak lambalarının parlaklık seviyesini (Kapalı, %50 veya %100) dinamik bir şekilde belirlemektedir. Tasarladığımız özelleştirilmiş ödül-ceza mekanizması sayesinde modelimiz sadece hareket sensörlerine körü körüne tepki veren basit bir yapı olmaktan çıkmış; gece karanlığında hareket algılandığında güvenliği maksimuma çıkaran, gündüz vakti veya sokak boşken ise sıfır israf prensibiyle hareket ederek enerji tüketimini minimize eden optimum aydınlatma politikasını başarıyla öğrenmiştir.
@@ -25,6 +23,8 @@ Formül: Toplam Ödül = Enerji Cezası + Güvenlik Primi + Gece Bonusu
 
 Yapay zekanın eğitim sürecine ait grafik ve simülasyon çıktıları, modelin ortamı mükemmel bir şekilde çözdüğünü ve hedeflenen davranışları başarıyla öğrendiğini göstermektedir. Öğrenme eğrisi incelendiğinde; modelin ilk 250 turda (keşif aşaması) rastgele kararlar alarak çevreyi tanımaya çalıştığı ve hatalarından eksi puanlar aldığı, ardından 750. tura kadar doğru hamleleri hızla kavrayarak performansını dik bir ivmeyle artırdığı görülmektedir. 750. turdan eğitim sonuna kadar ise ortalama ödülün 300 puan bandında sabitlenmesi, yapay zekanın "ustalık" aşamasına geçerek alabileceği en yüksek puanları getiren optimum stratejiyi ezberlediğini kanıtlar. 
 Canlı testin 10. adımındaki sonuç da bu başarıyı somutlaştırmaktadır; sistem, ortamda bir insan hareketi algılamasına rağmen öğle vakti ve güneşli bir hava olduğu için ışıkları açmayı reddetmiş (Kapalı/OFF tutmuş) ve gereksiz enerji tüketiminin önüne geçerek tasarruf ödülü (+2 puan) kazanmıştır. Bu durum, modelin sadece sensör tetiklenmelerine körü körüne tepki vermediğini; zaman, ışık ve hareket verilerini aynı potada eriterek enerji verimliliğini ve güvenliği aynı anda sağlayan bilinçli bir akıllı şehir asistanına dönüştüğünü özetlemektedir.
+
+Canlı testin 10. adımındaki sonuç da bu başarıyı somutlaştırmaktadır. Sistem; Akşam vakti, Hafif Aydınlık bir ortamda hareket algılamasına rağmen, gereksiz enerji sarfiyatından kaçınarak lambayı tam kapasite yerine %50 güç (MID) seviyesinde çalıştırmayı tercih etmiştir.
 
 <img width="625" height="147" alt="image" src="https://github.com/user-attachments/assets/1add7b24-2e2f-4ce9-9fd9-0037a89d1097" />
 
